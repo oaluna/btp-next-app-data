@@ -2,7 +2,7 @@
   "ownerId": "github-55468657",
   "slug": "Not-Another-Blog-Post",
   "title": "Not Another Blog Post",
-  "content": "Yup! Another test blog post! Hello!",
+  "content": "---\ntitle: Not Another Blog Post\npublished: true\n---\nYup! Another test blog post! Hello!",
   "createdAt": 1609186454471,
-  "updatedAt": 1609186454471
+  "updatedAt": 1609186503819
 }
