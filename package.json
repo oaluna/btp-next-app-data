@@ -9,21 +9,28 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arunoda/bulletproof-next-app"
+    "url": "git+https://github.com/oaluna/btp-next-app-data"
   },
-  "author": "",
+  "author": "Oscar Armando Luna <https://lunawebdev.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/arunoda/bulletproof-next-app/issues"
+    "url": "https://github.com/oaluna/btp-next-app-data/issues"
   },
-  "homepage": "https://github.com/arunoda/bulletproof-next-app#readme",
+  "homepage": "https://github.com/oaluna/btp-next-app-data#readme",
   "dependencies": {
+    "@arunoda/git-cms": "^1.1.0",
+    "axios": "^0.21.1",
+    "classnames": "^2.2.6",
+    "cross-env": "^7.0.3",
+    "markdown-to-jsx": "^7.1.0",
     "ms": "^2.1.2",
     "next": "9.5.2",
+    "next-auth": "^3.1.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "swr": "^0.3.11"
   },
   "devDependencies": {
-    "standard": "^14.3.4"
+    "standard": "^16.0.3"
   }
 }

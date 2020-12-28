@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Theme from '../components/Theme'
 import ms from 'ms'
+import { getPostList } from '../lib/data'
 
 export default function Home ({ postList }) {
   return (
@@ -22,17 +23,12 @@ export default function Home ({ postList }) {
 }
 
 export async function getStaticProps () {
-  const postList = [
-    {
-      slug: '2020-July-01-Hello-World',
-      title: 'Hello World',
-      createdAt: (new Date('2020 July 01')).getTime()
-    }
-  ]
+  const postList = await getPostList()
 
   return {
     props: {
       postList
-    }
+    },
+    revalidate: 2
   }
 }
